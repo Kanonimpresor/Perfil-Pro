@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin name="Perfil Pro" version="1.0" date="2025-07-16" compatibility="2.3.3+" installRequired="true">
+  <author name="KanonImpresor" url="https://github.com/norberto-dev" email="@" />
+  <description>Professional profile interface with animations and modern design for e107 users.</description>
+  <category>users</category>
+  <keywords>
+    <word>profile</word>
+    <word>portfolio</word>
+    <word>mentoring</word>
+  </keywords>
+  <adminLinks>
+    <link url="editar_perfil.php" description="Edit Profile Pro" icon="images/icon_32.png" iconSmall="images/icon_16.png">LAN_EDIT_PROFILE</link>
+  </adminLinks>
+  <siteLinks>
+    <link url="user.php" description="User Profile" icon="images/icon_32.png" iconSmall="images/icon_16.png">LAN_USER_PROFILE</link>
+  </siteLinks>
+  <pluginPrefs>
+    <pref name="enable_reviews">1</pref>
+    <pref name="enable_modal">1</pref>
+  </pluginPrefs>
+  <extendedFields>
+    <field name="bio" type="EUF_TEXTAREA" default="" active="true" />
+    <field name="experience" type="EUF_TEXTAREA" default="" active="true" />
+    <field name="skills" type="EUF_TEXTAREA" default="" active="true" />
+    <field name="linkedin" type="EUF_URL" default="" active="true" />
+    <field name="cover_image" type="EUF_IMAGE" default="" active="true" />
+  </extendedFields>
+</e107Plugin>
