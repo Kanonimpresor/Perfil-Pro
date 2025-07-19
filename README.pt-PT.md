@@ -1,59 +1,54 @@
 # 🌟 Perfil Pro para e107 CMS
 
-**Perfil Pro** es un plugin elegante y responsivo que permite a cada usuario del sistema e107 tener una página de perfil profesional con diseño moderno, animaciones y funcionalidades interactivas. Ideal para portafolios personales, perfiles de mentoring, y páginas de presentación de servicios.
-
-# README
-- [English](README.md)
-- [Português](README.pt-PT.md)
-- [Español](README.es-ES.md)
----
-
-## 📸 Vista Previa
-
-> Interfaz basada en Bootstrap con pestañas animadas, gradientes otoñales, efectos hover, glassmorphism y diseño premium.
+**Perfil Pro** é um plugin moderno e responsivo que permite a cada utilizador do CMS e107 ter uma página de perfil profissional com animações, design elegante e funcionalidades interativas. Ideal para portefólios, perfis de mentoring ou apresentação de serviços.
 
 ---
 
-## 🚀 Características
+## 📸 Vista Geral
 
-- Diseño responsivo para móviles y tablets
-- Pestañas con animaciones de entrada y transición
-- Indicador de estado pulsante
-- Modal funcional para reserva de mentoring
-- Sistema de reseñas con calificaciones por estrellas
-- Barras de progreso animadas para habilidades
-- Información personal editable por el usuario
-- Tarjetas de experiencia con hover effects
-- Enlaces sociales clickeables
-- Estilos visuales modernos (gradientes, glassmorphism, tipografía jerárquica)
+> Interface baseada em Bootstrap com separadores animados, efeitos de glassmorphism, gradientes outonais, cartões interativos e aspeto premium.
 
 ---
 
-## 🔧 Instalación
+## 🚀 Funcionalidades Principais
 
-1. Clona o descarga este repositorio en `e107_plugins/perfil_pro`
-2. Ve al panel de administración de e107
-3. Activa el plugin **Perfil Pro**
-4. Accede a la página de edición del perfil: `/editar_perfil.php`
-5. Visualiza el perfil público del usuario en: `/user.php?id=ID`
+- Design adaptável para telemóveis e tablets
+- Transições suaves entre separadores
+- Indicador de estado animado (efeito pulsação)
+- Modal funcional para agendamento de mentoring
+- Sistema de avaliações com estrelas e avatares
+- Barras de progresso animadas para competências técnicas
+- Cartões de experiência com efeitos de hover
+- Ligações sociais clicáveis
+- Estilo visual moderno (tipografia hierárquica, sombras suaves, transformações 3D)
+
+---
+
+## 🔧 Instalação
+
+1. Descarregue ou clone este repositório em `e107_plugins/perfil_pro`
+2. Aceda ao painel de administração do e107
+3. Ative o plugin **Perfil Pro**
+4. Aceda a `/editar_perfil.php` para editar o perfil do utilizador
+5. Visualize o perfil público em `/user.php?id=ID`
 
 ---
 
 ## 🧩 Campos Extendidos Recomendados
 
-Asegúrate de crear estos campos en **Admin → Usuarios → Campos Extendidos**:
+No painel de administração, vá a **Utilizadores → Campos Extendidos** e crie os seguintes campos:
 
-| Nombre         | Tipo       | Clave (`key`)   |
-|----------------|------------|-----------------|
-| Biografía      | Textarea   | `bio`           |
-| Experiencia    | Textarea   | `experience`    |
-| Habilidades    | Textarea   | `skills`        |
-| LinkedIn       | URL        | `linkedin`      |
-| Imagen portada | Imagen     | `cover_image`   |
+| Nome do Campo      | Tipo     | Chave (`key`)     |
+|--------------------|----------|-------------------|
+| Biografia          | Textarea | `bio`             |
+| Experiência        | Textarea | `experience`      |
+| Competências       | Textarea | `skills`          |
+| LinkedIn           | URL      | `linkedin`        |
+| Imagem de Capa     | Imagem   | `cover_image`     |
 
 ---
 
-## 📁 Estructura del Plugin
+## 📁 Estrutura do Plugin
 
 perfil_pro/
 ├── plugin.xml
@@ -67,40 +62,37 @@ perfil_pro/
 ├── js/
 │   └── scripts.js
 ├── images/
-│   └── (tu contenido visual)
+│   └── (portadas, avatares)
 ├── languages/
 │   ├── English.php
 │   ├── Spanish.php
 │   └── Portuguese.php
 
+---
+
+## 🛠️ Personalização
+
+- Podes alterar os estilos e cores em `styles.css`
+- Adicionar novos separadores através de `perfil_pro_template.php`
+- Usar shortcodes para integrar outros dados do perfil
 
 ---
 
-## 🛠️ Personalización
+## 🧑‍💻 Contribuições
 
-- Puedes cambiar los colores otoñales en `styles.css`
-- Añadir nuevas pestañas o secciones desde `perfil_pro_template.php`
-- Usar shortcodes para integrar más campos personalizados
+Tens sugestões para melhorar o design, adicionar funcionalidades ou traduzir para outros idiomas? Contribuições são bem-vindas via Pull Request!
 
 ---
 
-## 🧑‍💻 Contribuciones
+## 📜 Licença
 
-¿Quieres mejorar la interfaz, añadir traducciones o ampliar funcionalidades? ¡Las contribuciones son más que bienvenidas!
-
----
-
-## 📜 Licencia
-
-Este plugin está publicado bajo la licencia MIT. Puedes usarlo, modificarlo y adaptarlo libremente.
+Este plugin está disponível sob a licença MIT. Podes usá-lo, modificá-lo e adaptá-lo livremente.
 
 ---
 
 ## ✨ Autor
 
-**Marti Costa**  
-💼 Diseñador y desarrollador creativo  
+**Martin Costa**  
+💼 Designer e programador criativo  
 📍 Castelo Branco, Portugal  
-🌐 [e107 CMS](https://github.com/e107inc/e107)
-
----
+🌐 [e107 CMS oficial](https://github.com/e107inc/e107)

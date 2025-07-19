@@ -72,7 +72,6 @@ perfil_pro/
 │   ├── Spanish.php
 │   └── Portuguese.php
 
-
 ---
 
 ## 🛠️ Personalización

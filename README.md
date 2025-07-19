@@ -73,7 +73,6 @@ perfil_pro/
 │   ├── Spanish.php
 │   └── Portuguese.php
 
-
 ---
 
 ## 🛠️ Customization
