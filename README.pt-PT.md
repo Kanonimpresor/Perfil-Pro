@@ -4,8 +4,8 @@
 
 # README
 - [English](README.md)
-- [Português](README.pt.md)
-- [Español](README.es.md)
+- [Português](README.pt-PT.md)
+- [Español](README.es-ES.md)
 ---
 
 ## 📸 Vista Previa
