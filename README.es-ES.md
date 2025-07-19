@@ -3,9 +3,9 @@
 **Perfil Pro** es un plugin moderno y responsivo que permite a cada usuario del CMS e107 tener una página de perfil profesional con animaciones, diseño atractivo, y funcionalidades interactivas. Ideal para portafolios personales, páginas de mentoring o presentación de servicios.
 
 # README
-- [English](README.md)
-- [Português](README.pt-PT.md)
-- [Español](README.es-ES.md)
+- [![English](https://img.shields.io/badge/Language-English-blue)](README.md)
+- [![Português](https://img.shields.io/badge/Language-Português-green)](README.pt-PT.md)
+- [![Español](https://img.shields.io/badge/Language-Español-red)](README.es-ES.md)
 ---
 
 ## 📸 Vista previa
